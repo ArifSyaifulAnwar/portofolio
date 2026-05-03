@@ -4,7 +4,12 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Arif Syaiful Anwar — Full Stack & Mobile Developer</title>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230a0c10'/%3E%3Crect x='1' y='1' width='30' height='30' rx='5' fill='none' stroke='%23c9a84c' stroke-width='1.5'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Georgia,serif' font-size='13' font-weight='700' fill='%23c9a84c'%3EASA%3C/text%3E%3C/svg%3E"/>
+  <link rel="alternate icon" type="image/png" href="https://avatars.githubusercontent.com/u/100073035?v=4"/>
+  <link rel="apple-touch-icon" href="https://avatars.githubusercontent.com/u/100073035?v=4"/>
+  <meta name="theme-color" content="#0a0c10"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
 <style>
 :root{--bg:#0a0c10;--surface:#10141c;--surface2:#161b26;--border:rgba(255,255,255,0.07);--gold:#c9a84c;--gold-light:#e8c97a;--gold-dim:rgba(201,168,76,0.15);--text:#e8eaf0;--text-muted:#7a8499;--text-dim:#4a5168;--accent:#3b82f6;--green:#22c55e;--radius:4px;}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
@@ -426,7 +431,7 @@ footer{border-top:1px solid var(--border);padding:24px 48px;display:flex;justify
   <div class="reveal">
     <div class="section-tag">How I Work</div>
     <h2>Real-time <em>work process</em></h2>
-    <p class="section-desc">Bukan hanya hasil akhir — ini proses nyata bagaimana saya membangun setiap sistem dari awal hingga production.</p>
+    <p class="section-desc">Not just the final result — this is the real process of how I build every system from scratch to production.</p>
   </div>
 
   <!-- WORKFLOW STEPS -->
@@ -461,12 +466,12 @@ footer{border-top:1px solid var(--border);padding:24px 48px;display:flex;justify
       <!-- TODAY ACTIVITY -->
       <div class="activity-panel">
         <div class="activity-header">
-          <div class="activity-title"><div class="live-dot"></div>Today&apos;s Focus</div>
+          <div class="activity-title"><div class="live-dot"></div>Today's Focus</div>
         </div>
         <div style="padding:16px;display:flex;flex-direction:column;gap:10px;" id="focus-items">
-          <div class="activity-item"><div class="activity-icon-wrap" style="background:rgba(129,140,248,.15)">🖥️</div><div class="activity-info"><div class="activity-repo">Backend API</div><div class="activity-msg">ASP.NET Core — endpoint & stored procedure</div></div><div class="activity-time" id="focus-time-1">now</div></div>
+          <div class="activity-item"><div class="activity-icon-wrap" style="background:rgba(129,140,248,.15)">🖥️</div><div class="activity-info"><div class="activity-repo">Backend API</div><div class="activity-msg">ASP.NET Core — endpoints & stored procedures</div></div><div class="activity-time" id="focus-time-1">now</div></div>
           <div class="activity-item"><div class="activity-icon-wrap" style="background:rgba(56,189,248,.15)">📱</div><div class="activity-info"><div class="activity-repo">Flutter App</div><div class="activity-msg">UI screen & API integration</div></div><div class="activity-time">today</div></div>
-          <div class="activity-item"><div class="activity-icon-wrap" style="background:rgba(34,197,94,.15)">🗄️</div><div class="activity-info"><div class="activity-repo">SQL Server</div><div class="activity-msg">Stored procedure & schema update</div></div><div class="activity-time">today</div></div>
+          <div class="activity-item"><div class="activity-icon-wrap" style="background:rgba(34,197,94,.15)">🗄️</div><div class="activity-info"><div class="activity-repo">SQL Server</div><div class="activity-msg">Stored procedures & schema updates</div></div><div class="activity-time">today</div></div>
           <div class="activity-item"><div class="activity-icon-wrap" style="background:rgba(251,191,36,.15)">🐍</div><div class="activity-info"><div class="activity-repo">Python Service</div><div class="activity-msg">Face recognition & OCR processing</div></div><div class="activity-time">today</div></div>
         </div>
       </div>
@@ -474,12 +479,12 @@ footer{border-top:1px solid var(--border);padding:24px 48px;display:flex;justify
       <!-- PROCESS FLOW MINI -->
       <div class="activity-panel">
         <div class="activity-header">
-          <div class="activity-title">📋 Cara Kerja Saya</div>
+          <div class="activity-title">📋 How I Work</div>
         </div>
         <div style="padding:14px 16px;display:flex;flex-direction:column;gap:10px;">
-          <div style="display:flex;align-items:center;gap:10px;font-size:12px;color:var(--text-muted)"><span style="color:#22c55e;font-size:14px">✓</span><span>Analisis kebutuhan & desain database</span></div>
-          <div style="display:flex;align-items:center;gap:10px;font-size:12px;color:var(--text-muted)"><span style="color:#22c55e;font-size:14px">✓</span><span>Bangun API backend & stored procedure</span></div>
-          <div style="display:flex;align-items:center;gap:10px;font-size:12px;color:var(--text-muted)"><span style="color:var(--gold);font-size:14px">●</span><span style="color:var(--text)">Develop UI (web/mobile) & integrasi API</span></div>
+          <div style="display:flex;align-items:center;gap:10px;font-size:12px;color:var(--text-muted)"><span style="color:#22c55e;font-size:14px">✓</span><span>Requirements analysis & database design</span></div>
+          <div style="display:flex;align-items:center;gap:10px;font-size:12px;color:var(--text-muted)"><span style="color:#22c55e;font-size:14px">✓</span><span>Build backend API & stored procedures</span></div>
+          <div style="display:flex;align-items:center;gap:10px;font-size:12px;color:var(--text-muted)"><span style="color:var(--gold);font-size:14px">●</span><span style="color:var(--text)">Develop UI (web/mobile) & API integration</span></div>
           <div style="display:flex;align-items:center;gap:10px;font-size:12px;color:var(--text-dim)"><span style="font-size:14px">○</span><span>Testing, bug fix & optimasi performa</span></div>
           <div style="display:flex;align-items:center;gap:10px;font-size:12px;color:var(--text-dim)"><span style="font-size:14px">○</span><span>Deploy & handover ke client</span></div>
         </div>
@@ -503,7 +508,7 @@ footer{border-top:1px solid var(--border);padding:24px 48px;display:flex;justify
       <!-- COLLAB / OTHER REPOS -->
       <div class="collab-panel">
         <div class="collab-header">
-          <div class="collab-title">🤝 Kontribusi ke Repo Lain</div>
+          <div class="collab-title">🤝 Contributions to Other Repos</div>
           <div class="activity-sub" id="collab-count">—</div>
         </div>
         <div class="collab-feed" id="collab-feed">
@@ -514,7 +519,7 @@ footer{border-top:1px solid var(--border);padding:24px 48px;display:flex;justify
       <div class="commit-stats">
         <div class="cstat"><div class="cstat-num" id="stat-push">—</div><div class="cstat-label">Push Events</div></div>
         <div class="cstat"><div class="cstat-num" id="stat-repos-active">54</div><div class="cstat-label">Total Repos</div></div>
-        <div class="cstat"><div class="cstat-num" id="stat-streak">—</div><div class="cstat-label">Repos Aktif</div></div>
+        <div class="cstat"><div class="cstat-num" id="stat-streak">—</div><div class="cstat-label">Active Repos</div></div>
       </div>
     </div>
 
@@ -524,21 +529,21 @@ footer{border-top:1px solid var(--border);padding:24px 48px;display:flex;justify
   <div class="contrib-section reveal">
     <div class="contrib-header">
       <div class="contrib-title"><div class="live-dot"></div>GitHub Contribution Graph</div>
-      <div class="contrib-sub">1 year activity — auto updated</div>
+      <div class="contrib-sub">1 year of activity — auto updated</div>
     </div>
     <div class="contrib-graph-wrap">
       <img
         src="https://ghchart.rshah.org/c9a84c/ArifSyaifulAnwar"
         alt="GitHub Contribution Chart Arif Syaiful Anwar"
         loading="lazy"
-        onerror="this.parentNode.innerHTML='<div style='padding:24px;text-align:center;color:var(--text-dim);font-size:12px'>Contribution graph tidak dapat dimuat. Kunjungi <a href='https://github.com/ArifSyaifulAnwar' style='color:var(--gold)' target='_blank'>GitHub Profile</a></div>'"
+        onerror="this.parentNode.innerHTML='<div style='padding:24px;text-align:center;color:var(--text-dim);font-size:12px'>Contribution graph could not be loaded. Visit <a href='https://github.com/ArifSyaifulAnwar' style='color:var(--gold)' target='_blank'>GitHub Profile</a></div>'"
       />
     </div>
     <div class="contrib-summary">
       <div class="contrib-badge">📦 Total Repos: <span>54</span></div>
       <div class="contrib-badge">🔒 Private: <span>37</span></div>
       <div class="contrib-badge">🔓 Public: <span>17</span></div>
-      <div class="contrib-badge">🤝 Kontribusi aktif ke project lain</div>
+      <div class="contrib-badge">🤝 Active contributions to other projects</div>
     </div>
   </div>
 
@@ -660,7 +665,7 @@ footer{border-top:1px solid var(--border);padding:24px 48px;display:flex;justify
       <div class="tl-date">2022 — PRESENT</div>
       <div class="tl-title">Full Stack & Mobile Developer</div>
       <div class="tl-company">Enterprise Systems — Cooperative, Financial & Legal Sector</div>
-      <p class="tl-desc">Lead developer across multiple enterprise systems: KORA ERP, Absensi Karyawan, payment gateway, hotel management, and legal document automation. Building full stacks from DB design to mobile frontends, with Python AI and Chrome Extension automation.</p>
+      <p class="tl-desc">Lead developer across multiple enterprise systems: KORA ERP, employee attendance, payment gateway, hotel management, and legal document automation. Building full stacks from DB design to mobile frontends, with Python AI and Chrome Extension automation.</p>
       <div class="tl-tags"><span class="tl-tag">ASP.NET Core</span><span class="tl-tag">Flutter</span><span class="tl-tag">Kotlin</span><span class="tl-tag">SQL Server</span><span class="tl-tag">Python</span><span class="tl-tag">JavaScript</span><span class="tl-tag">PHP</span></div>
     </div>
     <div class="tl-item">
@@ -725,61 +730,61 @@ function timeAgo(d){
 // ALL 54 REPOS — private: view-only, public: clickable
 const REPOS = [
   // PRIVATE
-  {n:'absensi',d:'Absensi API — ASP.NET Core Web API untuk sistem absensi karyawan',l:'C#',v:'private',u:'2025-07-09'},
-  {n:'absensi_sdb',d:'Sistem absensi pengganti Talenta — Flutter mobile app dengan integrasi API',l:'Dart',v:'private',u:'2025-11-28'},
-  {n:'api-campuran-',d:'Kumpulan API manifest untuk beberapa kebutuhan sistem',l:'C#',v:'private',u:'2026-04-01'},
-  {n:'apiabsensi',d:'API absensi berbasis ASP.NET Core MVC',l:'C#',v:'private',u:'2025-08-13'},
-  {n:'apififroya',d:'API untuk sistem FIF Roya — automasi pelepasan fidusia',l:'JavaScript',v:'private',u:'2026-04-20'},
-  {n:'APIHTL',d:'API backend untuk sistem Hotel (SIMASHT HTL Module)',l:'JavaScript',v:'private',u:'2025-02-27'},
-  {n:'APIkoperasi',d:'API koperasi — backend service untuk sistem KORA ERP',l:'JavaScript',v:'private',u:'2025-05-16'},
-  {n:'api_payment',d:'Payment Gateway API — integrasi sistem pembayaran enterprise',l:'C#',v:'private',u:'2025-06-25'},
-  {n:'bacapdf',d:'Web app untuk membaca dan memproses file PDF berbasis browser',l:'PHP',v:'private',u:'2026-04-01'},
-  {n:'chat-ai',d:'Aplikasi chat AI mirip GPT — web-based chatbot interface',l:null,v:'private',u:'2026-01-09'},
-  {n:'dekripdokument',d:'Dekripsi dokumen terenkripsi — Chrome Extension untuk portal dokumen',l:'JavaScript',v:'private',u:'2026-04-20'},
-  {n:'dms',d:'Document Management System — upload dan manajemen dokumen berbasis ASP.NET MVC',l:'JavaScript',v:'private',u:'2026-04-01'},
-  {n:'encrip-dekrip',d:'Enkripsi dan dekripsi dokumen — ASP.NET Core dengan algoritma enkripsi kustom',l:'C#',v:'private',u:'2026-02-24'},
-  {n:'enkripdekripapi',d:'API enkripsi dan dekripsi untuk integrasi sistem',l:null,v:'private',u:'2025-07-28'},
-  {n:'enryptlibrary',d:'Library enkripsi/dekripsi untuk digunakan di berbagai sistem',l:'C#',v:'private',u:'2025-12-16'},
-  {n:'htlmobileterbaru',d:'Flutter mobile app terbaru untuk sistem Hotel — SIMASHT HTL',l:'Dart',v:'private',u:'2025-04-22'},
-  {n:'htl_api',d:'API backend hotel — endpoint untuk manajemen transaksi hotel',l:'JavaScript',v:'private',u:'2025-05-16'},
-  {n:'htmobile',d:'Flutter mobile app untuk sistem Hak Tanggungan (SIMASHT)',l:'Dart',v:'private',u:'2025-02-18'},
-  {n:'ikatan_notaris',d:'Sistem web Ikatan Notaris — versi web untuk manajemen data notaris',l:'HTML',v:'private',u:'2025-06-23'},
-  {n:'koperasi',d:'Aplikasi koperasi berbasis Flutter — mobile app untuk anggota koperasi',l:'Dart',v:'private',u:'2024-11-21'},
-  {n:'kopkara',d:'Koperasi karyawan — sistem web untuk manajemen koperasi internal',l:'JavaScript',v:'private',u:'2026-04-20'},
-  {n:'kosmart',d:'Aplikasi koperasi versi terbaru — Flutter app tanpa bug dengan fitur lengkap',l:'Dart',v:'private',u:'2025-01-20'},
-  {n:'kosmart_new',d:'Versi terbaru dari aplikasi Flutter kosmart dengan perbaikan UI',l:'Dart',v:'private',u:'2025-02-21'},
-  {n:'laravelchatbot',d:'Chatbot berbasis Laravel — integrasi AI chatbot dengan backend PHP',l:'PHP',v:'private',u:'2026-04-01'},
-  {n:'manifest',d:'Manifest browser extension untuk FIF Roya — automasi portal AHU',l:'JavaScript',v:'private',u:'2026-01-09'},
-  {n:'manifest-simash-to-bpn',d:'Manifest automasi dari SIMASHT ke portal BPN/ATR',l:'JavaScript',v:'private',u:'2026-04-01'},
-  {n:'manifestahu',d:'Chrome Extension manifest untuk pencarian data di portal AHU',l:'JavaScript',v:'private',u:'2026-04-01'},
-  {n:'manifestahupencariandata',d:'Manifest untuk pencarian dan ekstraksi data dari portal AHU',l:'JavaScript',v:'private',u:'2026-04-01'},
-  {n:'manifestroyamanual',d:'Manifest manual untuk proses Roya fidusia — Chrome Extension',l:'JavaScript',v:'private',u:'2026-04-01'},
-  {n:'manifestscrolldandownloadahu',d:'Manifest untuk scroll dan download dokumen dari portal AHU',l:'JavaScript',v:'private',u:'2026-04-01'},
-  {n:'payment_gateway',d:'Flutter app payment gateway — mobile frontend untuk sistem pembayaran',l:'Dart',v:'private',u:'2025-06-25'},
-  {n:'SQLKoperasi',d:'Database SQL Server dan Stored Procedures untuk sistem koperasi KORA',l:'TSQL',v:'private',u:'2025-08-13'},
-  {n:'uploadberkasmashildan',d:'Web upload berkas Roya — PHP web app untuk upload dokumen mashildan',l:'PHP',v:'private',u:'2026-04-01'},
-  {n:'websitebimbel',d:'Website bimbingan belajar berbasis Laravel — sistem manajemen siswa',l:'HTML',v:'private',u:'2025-12-01'},
-  {n:'website_bimbel_visi',d:'Website bimbel Visi — versi terbaru dengan fitur lengkap',l:'HTML',v:'private',u:'2025-06-12'},
-  {n:'portofolio-arif',d:'Repository portfolio Arif Syaiful Anwar',l:null,v:'private',u:'2026-04-22'},
-  {n:'desktop-tutorial',d:'Tutorial GitHub Desktop — repo onboarding GitHub',l:null,v:'private',u:'2022-02-20'},
+  {n:'absensi',d:'Attendance API — ASP.NET Core Web API for employee attendance system',l:'C#',v:'private',u:'2025-07-09'},
+  {n:'absensi_sdb',d:'Attendance system replacing Talenta HR — Flutter mobile app with full API integration',l:'Dart',v:'private',u:'2025-11-28'},
+  {n:'api-campuran-',d:'Collection of manifest APIs for various system requirements',l:'C#',v:'private',u:'2026-04-01'},
+  {n:'apiabsensi',d:'Attendance API built with ASP.NET Core MVC',l:'C#',v:'private',u:'2025-08-13'},
+  {n:'apififroya',d:'API for FIF Roya system — fidusia mortgage release automation',l:'JavaScript',v:'private',u:'2026-04-20'},
+  {n:'APIHTL',d:'Backend API for the Hotel management system (SIMASHT HTL Module)',l:'JavaScript',v:'private',u:'2025-02-27'},
+  {n:'APIkoperasi',d:'Cooperative API — backend service for KORA ERP system',l:'JavaScript',v:'private',u:'2025-05-16'},
+  {n:'api_payment',d:'Payment Gateway API — enterprise payment system integration',l:'C#',v:'private',u:'2025-06-25'},
+  {n:'bacapdf',d:'Web app for reading and processing PDF files in the browser',l:'PHP',v:'private',u:'2026-04-01'},
+  {n:'chat-ai',d:'GPT-like AI chat application — web-based chatbot interface',l:null,v:'private',u:'2026-01-09'},
+  {n:'dekripdokument',d:'Encrypted document decryption — Chrome Extension for document portals',l:'JavaScript',v:'private',u:'2026-04-20'},
+  {n:'dms',d:'Document Management System — file upload and document management with ASP.NET MVC',l:'JavaScript',v:'private',u:'2026-04-01'},
+  {n:'encrip-dekrip',d:'Document encryption and decryption — ASP.NET Core with custom encryption algorithm',l:'C#',v:'private',u:'2026-02-24'},
+  {n:'enkripdekripapi',d:'Encryption and decryption API for system integration',l:null,v:'private',u:'2025-07-28'},
+  {n:'enryptlibrary',d:'Reusable encrypt/decrypt library for multiple systems',l:'C#',v:'private',u:'2025-12-16'},
+  {n:'htlmobileterbaru',d:'Latest Flutter mobile app for the Hotel system — SIMASHT HTL module',l:'Dart',v:'private',u:'2025-04-22'},
+  {n:'htl_api',d:'Hotel backend API — endpoints for hotel transaction management',l:'JavaScript',v:'private',u:'2025-05-16'},
+  {n:'htmobile',d:'Flutter mobile app for Hak Tanggungan mortgage system (SIMASHT)',l:'Dart',v:'private',u:'2025-02-18'},
+  {n:'ikatan_notaris',d:'Notary Association web system — web version for notary data management',l:'HTML',v:'private',u:'2025-06-23'},
+  {n:'koperasi',d:'Flutter-based cooperative app — mobile app for cooperative members',l:'Dart',v:'private',u:'2024-11-21'},
+  {n:'kopkara',d:'Employee cooperative system — web platform for internal cooperative management',l:'JavaScript',v:'private',u:'2026-04-20'},
+  {n:'kosmart',d:'Latest cooperative app version — Flutter app, fully stable with complete features',l:'Dart',v:'private',u:'2025-01-20'},
+  {n:'kosmart_new',d:'Latest version of kosmart Flutter app with improved UI',l:'Dart',v:'private',u:'2025-02-21'},
+  {n:'laravelchatbot',d:'Laravel-based chatbot — AI chatbot integration with PHP backend',l:'PHP',v:'private',u:'2026-04-01'},
+  {n:'manifest',d:'Browser extension manifest for FIF Roya — AHU portal automation',l:'JavaScript',v:'private',u:'2026-01-09'},
+  {n:'manifest-simash-to-bpn',d:'Automation manifest from SIMASHT to the BPN/ATR land registration portal',l:'JavaScript',v:'private',u:'2026-04-01'},
+  {n:'manifestahu',d:'Chrome Extension manifest for data search on the AHU portal',l:'JavaScript',v:'private',u:'2026-04-01'},
+  {n:'manifestahupencariandata',d:'Manifest for data search and extraction from the AHU portal',l:'JavaScript',v:'private',u:'2026-04-01'},
+  {n:'manifestroyamanual',d:'Manual manifest for fidusia Roya process — Chrome Extension',l:'JavaScript',v:'private',u:'2026-04-01'},
+  {n:'manifestscrolldandownloadahu',d:'Manifest for scrolling and downloading documents from AHU portal',l:'JavaScript',v:'private',u:'2026-04-01'},
+  {n:'payment_gateway',d:'Flutter payment gateway app — mobile frontend for payment processing system',l:'Dart',v:'private',u:'2025-06-25'},
+  {n:'SQLKoperasi',d:'SQL Server database schema and Stored Procedures for KORA cooperative system',l:'TSQL',v:'private',u:'2025-08-13'},
+  {n:'uploadberkasmashildan',d:'Roya document upload — PHP web app for uploading mashildan documents',l:'PHP',v:'private',u:'2026-04-01'},
+  {n:'websitebimbel',d:'Laravel-based tutoring website — student management system',l:'HTML',v:'private',u:'2025-12-01'},
+  {n:'website_bimbel_visi',d:'Visi tutoring website — latest version with full features',l:'HTML',v:'private',u:'2025-06-12'},
+  {n:'portofolio-arif',d:'Arif Syaiful Anwar portfolio repository',l:null,v:'private',u:'2026-04-22'},
+  {n:'desktop-tutorial',d:'GitHub Desktop tutorial — onboarding repository',l:null,v:'private',u:'2022-02-20'},
   // PUBLIC
-  {n:'Aplikasi_Karyawan',d:'Aplikasi karyawan dengan autentikasi sidik jari — Android Kotlin',l:'Kotlin',v:'public',u:'2025-02-04',url:'https://github.com/ArifSyaifulAnwar/Aplikasi_Karyawan'},
-  {n:'facepython',d:'Python face recognition service menggunakan InsightFace — backend AI Absensi',l:'Python',v:'public',u:'2025-12-16',url:'https://github.com/ArifSyaifulAnwar/facepython'},
-  {n:'Trackfit',d:'Android fitness tracker untuk mencatat data kebugaran dan workout',l:'Kotlin',v:'public',u:'2024-07-21',url:'https://github.com/ArifSyaifulAnwar/Trackfit'},
+  {n:'Aplikasi_Karyawan',d:'Employee app with fingerprint biometric authentication — Android Kotlin',l:'Kotlin',v:'public',u:'2025-02-04',url:'https://github.com/ArifSyaifulAnwar/Aplikasi_Karyawan'},
+  {n:'facepython',d:'Python face recognition service using InsightFace — AI backend for attendance system',l:'Python',v:'public',u:'2025-12-16',url:'https://github.com/ArifSyaifulAnwar/facepython'},
+  {n:'Trackfit',d:'Android fitness tracker for recording personal health and workout data',l:'Kotlin',v:'public',u:'2024-07-21',url:'https://github.com/ArifSyaifulAnwar/Trackfit'},
   {n:'AiraCerdas',d:'Smart gallon water monitoring app Android — cek kualitas air galon',l:'Kotlin',v:'public',u:'2024-07-24',url:'https://github.com/ArifSyaifulAnwar/AiraCerdas'},
-  {n:'SekolahKu',d:'Aplikasi pendataan siswa sekolah dasar berbasis Android Kotlin',l:'Kotlin',v:'public',u:'2024-09-04',url:'https://github.com/ArifSyaifulAnwar/SekolahKu'},
-  {n:'SushiGenk',d:'Aplikasi penjualan sushi berbasis website — e-commerce dengan JS',l:'JavaScript',v:'public',u:'2024-08-07',url:'https://github.com/ArifSyaifulAnwar/SushiGenk'},
-  {n:'CRUD_WEB',d:'Aplikasi CRUD web berbasis PHP — create, read, update, delete dengan database',l:'PHP',v:'public',u:'2024-11-14',url:'https://github.com/ArifSyaifulAnwar/CRUD_WEB'},
-  {n:'Kipas_Otomatis',d:'Kipas angin otomatis berbasis Arduino — menyala sesuai sensor suhu',l:'C++',v:'public',u:'2024-07-24',url:'https://github.com/ArifSyaifulAnwar/Kipas_Otomatis'},
-  {n:'Timbangan_Galon',d:'Timbangan galon smart menggunakan ESP8266 — IoT sensor berat wireless',l:'C++',v:'public',u:'2024-07-24',url:'https://github.com/ArifSyaifulAnwar/Timbangan_Galon'},
-  {n:'CourseReminder',d:'Pengingat mata kuliah berbasis Arduino/C++ — reminder jadwal kuliah',l:'C++',v:'public',u:'2024-07-24',url:'https://github.com/ArifSyaifulAnwar/CourseReminder'},
-  {n:'NirmanaInterni',d:'Website Nirmana Interni berbasis desktop untuk promosi perusahaan',l:'Hack',v:'public',u:'2024-09-05',url:'https://github.com/ArifSyaifulAnwar/NirmanaInterni'},
-  {n:'HBD',d:'Website ucapan HBD interaktif — proyek web kreatif berbasis HTML',l:'HTML',v:'public',u:'2024-08-07',url:'https://github.com/ArifSyaifulAnwar/HBD'},
-  {n:'htmlasnah',d:'Proyek HTML/CSS — website berbasis HTML dan CSS',l:'CSS',v:'public',u:'2025-02-17',url:'https://github.com/ArifSyaifulAnwar/htmlasnah'},
-  {n:'baru',d:'Proyek JavaScript — eksperimen web berbasis JavaScript',l:'JavaScript',v:'public',u:'2025-02-14',url:'https://github.com/ArifSyaifulAnwar/baru'},
-  {n:'js',d:'Proyek JavaScript — website interaktif berbasis JS',l:'JavaScript',v:'public',u:'2025-02-14',url:'https://github.com/ArifSyaifulAnwar/js'},
-  {n:'senadaapp.github',d:'Proyek web senadaapp — website berbasis HTML',l:'HTML',v:'public',u:'2025-10-08',url:'https://github.com/ArifSyaifulAnwar/senadaapp.github'},
-  {n:'1402020132ArifSyaifulAnwar',d:'Tugas mata kuliah Design dan Pemrograman Web — proyek akademik',l:null,v:'public',u:'2022-06-09',url:'https://github.com/ArifSyaifulAnwar/1402020132ArifSyaifulAnwar'},
+  {n:'SekolahKu',d:'Android Kotlin app for managing primary school student data',l:'Kotlin',v:'public',u:'2024-09-04',url:'https://github.com/ArifSyaifulAnwar/SekolahKu'},
+  {n:'SushiGenk',d:'Web-based sushi sales application — e-commerce built with JavaScript',l:'JavaScript',v:'public',u:'2024-08-07',url:'https://github.com/ArifSyaifulAnwar/SushiGenk'},
+  {n:'CRUD_WEB',d:'PHP-based CRUD web application — create, read, update, delete with database backend',l:'PHP',v:'public',u:'2024-11-14',url:'https://github.com/ArifSyaifulAnwar/CRUD_WEB'},
+  {n:'Kipas_Otomatis',d:'Arduino-based automatic fan — activates based on temperature sensor readings',l:'C++',v:'public',u:'2024-07-24',url:'https://github.com/ArifSyaifulAnwar/Kipas_Otomatis'},
+  {n:'Timbangan_Galon',d:'Smart gallon scale using ESP8266 — wireless IoT weight sensor',l:'C++',v:'public',u:'2024-07-24',url:'https://github.com/ArifSyaifulAnwar/Timbangan_Galon'},
+  {n:'CourseReminder',d:'Course reminder system built with Arduino/C++ — schedule reminder device',l:'C++',v:'public',u:'2024-07-24',url:'https://github.com/ArifSyaifulAnwar/CourseReminder'},
+  {n:'NirmanaInterni',d:'Nirmana Interni desktop-based website for company promotion',l:'Hack',v:'public',u:'2024-09-05',url:'https://github.com/ArifSyaifulAnwar/NirmanaInterni'},
+  {n:'HBD',d:'Interactive birthday website — creative web project built with HTML',l:'HTML',v:'public',u:'2024-08-07',url:'https://github.com/ArifSyaifulAnwar/HBD'},
+  {n:'htmlasnah',d:'HTML/CSS project — website built with HTML and CSS',l:'CSS',v:'public',u:'2025-02-17',url:'https://github.com/ArifSyaifulAnwar/htmlasnah'},
+  {n:'baru',d:'JavaScript project — web experiment built with JavaScript',l:'JavaScript',v:'public',u:'2025-02-14',url:'https://github.com/ArifSyaifulAnwar/baru'},
+  {n:'js',d:'JavaScript project — interactive website built with JS',l:'JavaScript',v:'public',u:'2025-02-14',url:'https://github.com/ArifSyaifulAnwar/js'},
+  {n:'senadaapp.github',d:'Senadaapp web project — HTML-based website',l:'HTML',v:'public',u:'2025-10-08',url:'https://github.com/ArifSyaifulAnwar/senadaapp.github'},
+  {n:'1402020132ArifSyaifulAnwar',d:'Web Design and Programming course assignment — academic project',l:null,v:'public',u:'2022-06-09',url:'https://github.com/ArifSyaifulAnwar/1402020132ArifSyaifulAnwar'},
 ];
 
 let activeFilter = 'all';
@@ -968,7 +973,7 @@ async function loadActivity() {
       });
       document.getElementById('collab-count').textContent = collabRepos.size + ' repo';
     } else {
-      collabHtml = `<div class="collab-empty">🔍 Belum terdeteksi kontribusi ke repo lain di 100 event terakhir.<br><span style="font-size:10px;color:var(--text-dim)">Akan muncul otomatis jika ada aktivitas push/PR ke repo milik orang lain.</span></div>`;
+      collabHtml = `<div class="collab-empty">🔍 No contributions to external repositories detected in the last 100 events.<br><span style="font-size:10px;color:var(--text-dim)">Will appear automatically when you push or create a PR to someone else's repo.</span></div>`;
       document.getElementById('collab-count').textContent = '—';
     }
 
@@ -979,9 +984,9 @@ async function loadActivity() {
     updated.textContent = 'Updated ' + new Date().toLocaleTimeString('id-ID', {hour:'2-digit', minute:'2-digit'});
 
   } catch(err) {
-    document.getElementById('activity-feed').innerHTML = '<div class="activity-loading">Tidak dapat memuat activity</div>';
+    document.getElementById('activity-feed').innerHTML = '<div class="activity-loading">Could not load activity</div>';
     if(document.getElementById('collab-feed'))
-      document.getElementById('collab-feed').innerHTML = '<div class="collab-empty">API tidak dapat dijangkau</div>';
+      document.getElementById('collab-feed').innerHTML = '<div class="collab-empty">API unreachable</div>';
     document.getElementById('activity-updated').textContent = 'Offline';
   }
 }
